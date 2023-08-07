@@ -12,7 +12,7 @@ from ete3 import Tree
 import csv
 
 # Prompt the user to input the name of the dictionary file
-dictionary_filename = input("Please enter the name of the dictionary file: ")
+dictionary_filename = input("Please enter the name of the dictionary file as a semicolon-delimited .csv: ")
 
 # Read the dictionary from the CSV file
 name_dict = {}
